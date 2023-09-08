@@ -5,7 +5,7 @@ resource "google_compute_forwarding_rule" "forwarding_rule_java_hello" {
   port_range            = "443"
   target                = google_compute_region_target_https_proxy.target_proxy_java_hello.id
   #network               = 
-  #subnetwork            = 
+  #subnetwork            =   
   network_tier          = "PREMIUM"
 }
 
